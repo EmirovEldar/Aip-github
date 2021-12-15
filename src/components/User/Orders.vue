@@ -13,6 +13,7 @@
                     <v-checkbox
                     :input-value="order.done"
                     color="primary"
+					@click="markDone(order)"
                     ></v-checkbox>
 
                     </v-list-item-action>
