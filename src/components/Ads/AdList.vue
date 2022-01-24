@@ -24,7 +24,7 @@
                             <v-card-actions>
                             <v-spacer></v-spacer>
                             <v-btn 
-                            color="primary"
+                            color="success"
                             :to="'/ad/' + ad.id"
                             >
                                 Open

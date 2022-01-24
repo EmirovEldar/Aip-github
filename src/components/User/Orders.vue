@@ -12,7 +12,7 @@
 
                     <v-checkbox
                     :input-value="order.done"
-                    color="primary"
+                    color="#F44336"
 					@click="markDone(order)"
                     ></v-checkbox>
 
@@ -25,7 +25,8 @@
 
                 <v-list-item-action>
                     <v-btn 
-                    class="primary"
+                    class="danger"
+					raised color="success"
                     :to="'/ad/' + order.adId"
                     >Open</v-btn>
                 </v-list-item-action>

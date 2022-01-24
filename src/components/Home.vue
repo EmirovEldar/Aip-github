@@ -31,13 +31,13 @@
 					<h3 
                     class="headline mb0"
                     >{{ad.title}}</h3>
-					<div>{{ad.desc}}</div>
+					<div class="headline mb0" >{{ad.desc}}</div>
 					</div>
 					</v-card-title>
 					<v-card-actions>
 					<v-spacer></v-spacer>
 					<v-btn text :to="'/ad/' + ad.id">Open</v-btn>
-					<v-btn raised color="primary">
+					<v-btn raised color="success">
 						Buy
 					</v-btn>
 					</v-card-actions>				

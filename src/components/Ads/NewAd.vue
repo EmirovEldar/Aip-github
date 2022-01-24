@@ -37,7 +37,7 @@
 
                         <v-layout row>
                             <v-flex xs12>
-                            <img 	src="https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg" height="150" class="mt-3">
+                            <img 	src="https://get.wallhere.com/photo/illustration-anime-cartoon-One-Piece-comics-1920x1200-px-musical-theatre-comic-book-542775.jpg" height="150" class="mt-3">
                             </v-flex>
                         </v-layout>
 
