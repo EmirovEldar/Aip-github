@@ -37,7 +37,7 @@
 
                         <v-layout row>
                             <v-flex xs12>
-                            <img 	src="https://get.wallhere.com/photo/illustration-anime-cartoon-One-Piece-comics-1920x1200-px-musical-theatre-comic-book-542775.jpg" height="150" class="mt-3">
+                            <img 	src="https://kartinkin.net/uploads/posts/2021-07/1625778659_41-kartinkin-com-p-anime-van-pis-luffi-anime-krasivo-46.jpg" height="150" class="mt-3">
                             </v-flex>
                         </v-layout>
 
@@ -82,9 +82,9 @@ export default {
 					title: this.title,
 					desc: this.description,
 					promo: this.promo,
-					src: "https://cdn.vuetifyjs.com/images/cards/cooking.png"
+					src: "https://kartinkin.net/uploads/posts/2021-07/1625778659_41-kartinkin-com-p-anime-van-pis-luffi-anime-krasivo-46.jpg"
 				}
-				console.log(ad)
+			this.$store.dispatch("createAd", ad)
 			}
 		}
 	}
